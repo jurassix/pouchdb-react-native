@@ -14,8 +14,7 @@
     "offlinefirst"
   ],
   "scripts": {
-    "updtr": "updtr --save-exact",
-    "postinstall": "node ./setup.js"
+    "updtr": "updtr --save-exact"
   },
   "author": {
     "name": "Christoph Stock",
