@@ -1,6 +1,6 @@
 {
   "name": "@jurassix/pouchdb-adapter-http-react-native",
-  "version": "6.2.5",
+  "version": "6.2.6",
   "description": "ReactNative: PouchDB adapter using HTTP (e.g. a remote CouchDB) as its data store. Adapted from pouchdb-adapter-http.",
   "main": "./src/index.js",
   "keywords": [],

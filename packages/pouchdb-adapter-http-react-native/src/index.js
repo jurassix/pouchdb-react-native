@@ -6,7 +6,7 @@ var MAX_SIMULTANEOUS_REVS = 50;
 var supportsBulkGetMap = {};
 
 // import { nextTick } from 'pouchdb-utils';
-import fetchCore from '@ventiv/pouchdb-fetch-react-native';
+import fetchCore from '@jurassix/pouchdb-fetch-react-native';
 import getArguments from 'argsarray';
 
 const nextTick = cb => setTimeout(cb, 0);
@@ -967,7 +967,7 @@ function HttpPouch(opts, callback) {
       method = 'POST';
       body = { doc_ids: opts.doc_ids };
     } else if (opts.selector) {
-    /* istanbul ignore next */
+      /* istanbul ignore next */
       // set this automagically for the user, similar to above
       params.filter = '_selector';
       method = 'POST';
