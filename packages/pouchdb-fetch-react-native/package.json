@@ -1,6 +1,6 @@
 {
   "name": "@jurassix/pouchdb-fetch-react-native",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "description": "PouchDB's ajax() method, implemented using Fetch. Adapted from pouchdb-ajax",
   "main": "./src/fetchCore.js",
   "keywords": [],
